@@ -55,6 +55,13 @@ public class QuickstartSessionFactory extends DefaultSessionFactoryImpl {
 	}
 	
 	/**
+	 * Quickstart session factory with all factories set to defaults except for matrix factory
+	 */
+	public QuickstartSessionFactory(MatrixFactory matrixFactory, boolean isTrainingContext) {
+		this(matrixFactory, createDefaultDirectedComponentsContext(DEFAULT_MATRIX_FACTORY, isTrainingContext));
+	}
+	
+	/**
 	 * Quickstart session factory with all factories set to defaults, but with provided directedComponentsContext
 	 */
 	public QuickstartSessionFactory(DirectedComponentsContext directedComponentsContext) {
