@@ -5,7 +5,7 @@ Get up and running with ml4j quickly, with ml4j-quickstart.
 There are many customisations possible with the configuration of the various
 ml4j components and defaults.
 
-This project autowires these components and factoris with default settings, so
+This project autowires these components and factories with default settings, so
 you can get starting working with the project with a single artifact import.
 
 ## Quick Start ##
