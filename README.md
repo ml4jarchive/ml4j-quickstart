@@ -29,3 +29,13 @@ Download the jar though Maven:
   <version>2.0.0-SNAPSHOT</version>
 </dependency>
 ```
+
+For simple demos of getting started with ml4j, please <a href="https://github.com/ml4j/ml4j-quickstart-demo">ml4j-quickstart-demo</a>.
+
+For more complex examples (eg. Inception V4,  YOLOv2 ), please see the following projects:
+
+https://github.com/ml4j/inception-v4-spring-demo
+
+https://github.com/ml4j/yolo-v2-spring-demo
+
+
