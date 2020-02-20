@@ -15,10 +15,10 @@ Download the jar though Maven:
 ```xml
 <repository>
   <id>ml4j-snapshots</id>
-	<url>https://raw.githubusercontent.com/ml4j/mvn-repository/master/snapshots</url>
-	<snapshots>
-	   <enabled>true</enabled>
-	</snapshots>
+  <url>https://raw.githubusercontent.com/ml4j/mvn-repository/master/snapshots</url>	
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
 </repository>
 ```
 
